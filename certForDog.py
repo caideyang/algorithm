@@ -33,7 +33,7 @@ class CertForDog:
             "grandparentsfont":ImageFont.truetype("C:\Windows\Fonts\simsun.ttc", 22), #祖父母
             "ggrandparentsfont":ImageFont.truetype("C:\Windows\Fonts\simsun.ttc", 18), #曾祖父母
         }
-        self.ggandpa  =  ['Eggo Okeanas Elite','CH SUNNY`S EAGLE','GOODFELLAS IZ PALEVYH','CN CH Baron','CN CH Darma','CH Ladd Porter','CH Kaliv Miumiu','CH Jarie Nava','']
+        self.ggandpa  =  []
         self.ggpandma =  []
     def getExcel(self):
         return self._excel
